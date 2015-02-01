@@ -1,0 +1,3 @@
+---- FILE_HANDLE_MAGIC_NUMBER_START Matches (2 in 1 files) ----
+i_file_define.c:#define I_CHECK_FILE_HANDLE_VALID(m) (((m).magic_start == FILE_HANDLE_MAGIC_NUMBER_START) && \
+i_file_define.c:      (m).magic_start = FILE_HANDLE_MAGIC_NUMBER_START;  \

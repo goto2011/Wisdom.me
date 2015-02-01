@@ -1,0 +1,48 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+FALSE	i_define.h	30;"	d
+I_DEFINE_H	i_define.h	19;"	d
+I_FILE_ERROR_	i_file.h	/^    I_FILE_ERROR_$/;"	e	enum:__anon2
+I_FILE_ERROR_DIR_NOT_EXIST	i_file.h	/^    I_FILE_ERROR_DIR_NOT_EXIST,$/;"	e	enum:__anon2
+I_FILE_ERROR_FILE_BUSY	i_file.h	/^    I_FILE_ERROR_FILE_BUSY,$/;"	e	enum:__anon2
+I_FILE_ERROR_FILE_NOT_EXIST	i_file.h	/^    I_FILE_ERROR_FILE_NOT_EXIST,$/;"	e	enum:__anon2
+I_FILE_ERROR_VOLUME_NOT_EXIST	i_file.h	/^    I_FILE_ERROR_VOLUME_NOT_EXIST,$/;"	e	enum:__anon2
+I_FILE_H	i_file.h	19;"	d
+I_FILE_OPEN_TYPE	i_file.h	/^}I_FILE_OPEN_TYPE;$/;"	t	typeref:enum:__anon3
+I_FILE_OPERATOR_STATE	i_file.h	/^}I_FILE_OPERATOR_STATE;$/;"	t	typeref:enum:__anon2
+I_FILE_OPERATOR_TYPE	i_file.h	/^} I_FILE_OPERATOR_TYPE;$/;"	t	typeref:enum:__anon1
+I_FILE_READ_BINARY	i_file.h	/^    I_FILE_READ_BINARY,         \/\/ binary read.$/;"	e	enum:__anon1
+I_FILE_READ_LONG_LINE	i_file.h	/^    I_FILE_READ_LONG_LINE,      \/\/ line read, and the most long line is more then 1KB.$/;"	e	enum:__anon1
+I_FILE_READ_SHORT_LINE	i_file.h	/^    I_FILE_READ_SHORT_LINE,     \/\/ line read, and the most long line is shorter then 1KB.$/;"	e	enum:__anon1
+I_FILE_STATE_OK	i_file.h	/^    I_FILE_STATE_OK = 0,$/;"	e	enum:__anon2
+I_FILE_TYPE_MAX	i_file.h	/^    I_FILE_TYPE_MAX$/;"	e	enum:__anon1
+I_FILE_TYPE_MIN	i_file.h	/^    I_FILE_TYPE_MIN = 0,        \/\/ reserved.$/;"	e	enum:__anon1
+I_FILE_WRITE_BINARY	i_file.h	/^    I_FILE_WRITE_BINARY,        \/\/ binary write.$/;"	e	enum:__anon1
+I_FILE_WRITE_LINE	i_file.h	/^    I_FILE_WRITE_LINE,          \/\/ line write.$/;"	e	enum:__anon1
+I_NOT_RETAIN	i_file.h	/^    I_NOT_RETAIN        \/\/ not retain.$/;"	e	enum:__anon3
+I_RETAIN	i_file.h	/^    I_RETAIN,           \/\/ retain.$/;"	e	enum:__anon3
+NULL	i_define.h	33;"	d
+TRUE	i_define.h	29;"	d
+WISDOM_ME_H	wisdom_me.h	19;"	d
+boolean	i_define.h	/^typedef  unsigned int       boolean;     \/* Boolean value type *\/$/;"	t
+g_file_name_max_length	i_file_define.c	/^static uint32 g_file_name_max_length = 768;$/;"	v	file:
+g_file_route_max_length	i_file_define.c	/^static uint32 g_file_route_max_length = 2048;$/;"	v	file:
+get_file_name_max_length	i_file_define.c	/^uint32 get_file_name_max_length()$/;"	f
+get_file_route_max_length	i_file_define.c	/^uint32 get_file_route_max_length()$/;"	f
+i_file_check_exist	i_file_adapter.c	/^I_FILE_OPERATOR_STATE i_file_check_exist(char * file_name)$/;"	f
+i_file_read	i_file.c	/^char * i_file_read($/;"	f
+int16	i_define.h	/^typedef  signed short       int16;       \/* Signed 16 bit value *\/$/;"	t
+int32	i_define.h	/^typedef  signed long int    int32;       \/* Signed 32 bit value *\/$/;"	t
+int64	i_define.h	/^typedef  long long          int64;       \/* Signed 64 bit value, only for C99. *\/$/;"	t
+int8	i_define.h	/^typedef  signed char        int8;        \/* Signed 8  bit value *\/$/;"	t
+main	wisdom_me_ut.c	/^void main()$/;"	f
+set_file_name_max_length	i_file_define.c	/^void set_file_name_max_length(uint32 new_max_length)$/;"	f
+set_file_route_max_length	i_file_define.c	/^void set_file_route_max_length(uint32 new_max_length)$/;"	f
+uint16	i_define.h	/^typedef  unsigned short     uint16;      \/* Unsigned 16 bit value *\/$/;"	t
+uint32	i_define.h	/^typedef  unsigned long int  uint32;      \/* Unsigned 32 bit value *\/$/;"	t
+uint64	i_define.h	/^typedef  unsigned long long uint64;      \/* Unsigned 64 bit value, only for C99. *\/$/;"	t
+uint8	i_define.h	/^typedef  unsigned char      uint8;       \/* Unsigned 8  bit value *\/$/;"	t
